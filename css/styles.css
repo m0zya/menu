@@ -1,0 +1,119 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: rgb(255, 255, 255);
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+	background: black;
+	border: 4px solid #90EE90;
+	text-align: left;
+}
+
+
+/**
+ * Другие стили
+ */
+
+ .navbar {
+	 width: 100%;
+	 height: 70px;
+	 box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+ }
+
+ .navbar .container {
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar-menu {
+	list-style-type: none;
+padding-left: 0;
+margin-bottom: 0;
+}
+.navbar-menu li {
+	display: inline-block;
+}
+.navbar-menu li a {
+	display: inline-block;
+color: rgb(255, 255, 255);
+opacity: 0.6;
+text-decoration: none;
+padding: 10px;
+transition: all .07s ease-in-out;
+}
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.callback {
+	margin-left: 30px;
+	padding: 10px 30px;
+	background-color: rgb(144, 238, 144);
+/* border-radius: 100px; */
+color: rgb(0, 0, 0);
+text-decoration: none;
+transition: all .1s ease-out;
+
+}
+.navbar-brand {
+	font-weight: 700;
+font-size: 35px;
+text-decoration: none;
+color: #90EE90;
+
+
+}
+.navbar-menu li a:hover {
+	opacity: 1;
+}
+.navbar-brand:hover {
+	color: rgb(255, 255, 255);
+	transition: all .07s ease-in-out;
+}
+.callback:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 2px 2px rgba(14, 206, 30);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
